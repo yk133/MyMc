@@ -1,3 +1,3 @@
 # MyMc
-Mc自己的
+Mc
 Start
