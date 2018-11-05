@@ -1,0 +1,105 @@
+Symbol range map extraction starting
+Processing 2 files
+startProcessing "admin/admin/AdminForge.java" md5: bad3a78833759e1bb0a41ee497750714
+@|admin/admin/AdminForge.java|8|19|admin.admin|package|admin.admin|(file)
+Class Start: admin.admin.AdminForge
+   @|admin/admin/AdminForge.java|822|828|Plugin|class|org.spongepowered.api.plugin.Plugin
+   @|admin/admin/AdminForge.java|838|840|id|method|org.spongepowered.api.plugin.Plugin|id|()Ljava/lang/String;
+   @|admin/admin/AdminForge.java|860|864|name|method|org.spongepowered.api.plugin.Plugin|name|()Ljava/lang/String;
+   @|admin/admin/AdminForge.java|884|891|authors|method|org.spongepowered.api.plugin.Plugin|authors|()[Ljava/lang/String;
+   @|admin/admin/AdminForge.java|945|955|AdminForge|class|admin.admin.AdminForge
+   @|admin/admin/AdminForge.java|983|989|Logger|class|org.slf4j.Logger
+   @|admin/admin/AdminForge.java|964|970|Inject|class|com.google.inject.Inject
+   @|admin/admin/AdminForge.java|983|989|Logger|class|org.slf4j.Logger
+   @|admin/admin/AdminForge.java|990|996|logger|field|admin.admin.AdminForge|logger|
+   Method Start: onServerStart(Lorg/spongepowered/api/event/game/state/GameStartedServerEvent;)V
+      @|admin/admin/AdminForge.java|1109|1114|event|param|admin.admin.AdminForge|onServerStart|(Lorg/spongepowered/api/event/game/state/GameStartedServerEvent;)V|event|0
+      @|admin/admin/AdminForge.java|1047|1055|Listener|class|org.spongepowered.api.event.Listener
+      @|admin/admin/AdminForge.java|1072|1085|onServerStart|method|admin.admin.AdminForge|onServerStart|(Lorg/spongepowered/api/event/game/state/GameStartedServerEvent;)V
+      @|admin/admin/AdminForge.java|1086|1108|GameStartedServerEvent|class|org.spongepowered.api.event.game.state.GameStartedServerEvent
+      @|admin/admin/AdminForge.java|1127|1133|logger|field|admin.admin.AdminForge|logger
+      @|admin/admin/AdminForge.java|1134|1138|info|method|org.slf4j.Logger|info|(Ljava/lang/String;)V
+      @|admin/admin/AdminForge.java|1157|1163|logger|field|admin.admin.AdminForge|logger
+      @|admin/admin/AdminForge.java|1164|1169|debug|method|org.slf4j.Logger|debug|(Ljava/lang/String;)V
+      @|admin/admin/AdminForge.java|1188|1194|System|class|java.lang.System
+      @|admin/admin/AdminForge.java|1195|1198|out|field|java.lang.System|out
+      @|admin/admin/AdminForge.java|1199|1206|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|admin/admin/AdminForge.java|1226|1237|CommandSpec|class|org.spongepowered.api.command.spec.CommandSpec
+      @|admin/admin/AdminForge.java|1254|1265|CommandSpec|class|org.spongepowered.api.command.spec.CommandSpec
+      @|admin/admin/AdminForge.java|1266|1273|builder|method|org.spongepowered.api.command.spec.CommandSpec|builder|()Lorg/spongepowered/api/command/spec/CommandSpec$Builder;
+      @|admin/admin/AdminForge.java|1293|1304|description|method|org.spongepowered.api.command.spec.CommandSpec.Builder|description|(Lorg/spongepowered/api/text/Text;)Lorg/spongepowered/api/command/spec/CommandSpec$Builder;
+      @|admin/admin/AdminForge.java|1305|1309|Text|class|org.spongepowered.api.text.Text
+      @|admin/admin/AdminForge.java|1310|1312|of|method|org.spongepowered.api.text.Text|of|(Ljava/lang/String;)Lorg/spongepowered/api/text/LiteralText;
+      @|admin/admin/AdminForge.java|1354|1364|permission|method|org.spongepowered.api.command.spec.CommandSpec.Builder|permission|(Ljava/lang/String;)Lorg/spongepowered/api/command/spec/CommandSpec$Builder;
+      @|admin/admin/AdminForge.java|1413|1421|executor|method|org.spongepowered.api.command.spec.CommandSpec.Builder|executor|(Lorg/spongepowered/api/command/spec/CommandExecutor;)Lorg/spongepowered/api/command/spec/CommandSpec$Builder;
+      @|admin/admin/AdminForge.java|1426|1443|HelloWorldCommand|class|admin.admin.HelloWorldCommand
+      @|admin/admin/AdminForge.java|1464|1469|build|method|org.spongepowered.api.command.spec.CommandSpec.Builder|build|()Lorg/spongepowered/api/command/spec/CommandSpec;
+      @|admin/admin/AdminForge.java|1482|1488|Sponge|class|org.spongepowered.api.Sponge
+      @|admin/admin/AdminForge.java|1489|1506|getCommandManager|method|org.spongepowered.api.Sponge|getCommandManager|()Lorg/spongepowered/api/command/CommandManager;
+      @|admin/admin/AdminForge.java|1509|1517|register|method|org.spongepowered.api.command.CommandManager|register|(Ljava/lang/Object;Lorg/spongepowered/api/command/CommandCallable;[Ljava/lang/String;)Ljava/util/Optional;
+      @|admin/admin/AdminForge.java|1518|1524|Plugin|class|org.spongepowered.api.plugin.Plugin
+      @|admin/admin/AdminForge.java|1525|1535|ID_PATTERN|field|org.spongepowered.api.plugin.Plugin|ID_PATTERN
+      @|admin/admin/AdminForge.java|1594|1602|Optional|class|java.util.Optional
+      @|admin/admin/AdminForge.java|1603|1617|EconomyService|class|org.spongepowered.api.service.economy.EconomyService
+      @|admin/admin/AdminForge.java|1632|1638|Sponge|class|org.spongepowered.api.Sponge
+      @|admin/admin/AdminForge.java|1639|1656|getServiceManager|method|org.spongepowered.api.Sponge|getServiceManager|()Lorg/spongepowered/api/service/ServiceManager;
+      @|admin/admin/AdminForge.java|1659|1666|provide|method|org.spongepowered.api.service.ServiceManager|provide|(Ljava/lang/Class;)Ljava/util/Optional;
+      @|admin/admin/AdminForge.java|1667|1681|EconomyService|class|org.spongepowered.api.service.economy.EconomyService
+      @|admin/admin/AdminForge.java|1714|1723|isPresent|method|java.util.Optional|isPresent|()Z
+      @|admin/admin/AdminForge.java|1811|1825|EconomyService|class|org.spongepowered.api.service.economy.EconomyService
+      @|admin/admin/AdminForge.java|1854|1857|get|method|java.util.Optional|get|()Ljava/lang/Object;
+      @|admin/admin/AdminForge.java|1869|1875|logger|field|admin.admin.AdminForge|logger
+      @|admin/admin/AdminForge.java|1876|1881|debug|method|org.slf4j.Logger|debug|(Ljava/lang/String;)V
+      @|admin/admin/AdminForge.java|1924|1930|Player|class|org.spongepowered.api.entity.living.player.Player
+      @|admin/admin/AdminForge.java|1934|1940|Sponge|class|org.spongepowered.api.Sponge
+      @|admin/admin/AdminForge.java|1941|1950|getServer|method|org.spongepowered.api.Sponge|getServer|()Lorg/spongepowered/api/Server;
+      @|admin/admin/AdminForge.java|1953|1962|getPlayer|method|org.spongepowered.api.Server|getPlayer|(Ljava/lang/String;)Ljava/util/Optional;
+      @|admin/admin/AdminForge.java|1970|1973|get|method|java.util.Optional|get|()Ljava/lang/Object;
+      @|admin/admin/AdminForge.java|1986|1996|HealthData|class|org.spongepowered.api.data.manipulator.mutable.entity.HealthData
+      @|admin/admin/AdminForge.java|2003|2016|getHealthData|method|org.spongepowered.api.entity.living.Living|getHealthData|()Lorg/spongepowered/api/data/manipulator/mutable/entity/HealthData;
+      @|admin/admin/AdminForge.java|2040|2046|health|method|org.spongepowered.api.data.manipulator.mutable.entity.HealthData|health|()Lorg/spongepowered/api/data/value/mutable/MutableBoundedValue;
+      @|admin/admin/AdminForge.java|2049|2052|get|method|org.spongepowered.api.data.value.BaseValue|get|()Ljava/lang/Object;
+      @|admin/admin/AdminForge.java|2084|2087|set|method|org.spongepowered.api.data.manipulator.DataManipulator|set|(Lorg/spongepowered/api/data/value/BaseValue;)Lorg/spongepowered/api/data/manipulator/DataManipulator;
+      @|admin/admin/AdminForge.java|2091|2097|health|method|org.spongepowered.api.data.manipulator.mutable.entity.HealthData|health|()Lorg/spongepowered/api/data/value/mutable/MutableBoundedValue;
+      @|admin/admin/AdminForge.java|2100|2103|set|method|org.spongepowered.api.data.value.mutable.Value|set|(Ljava/lang/Object;)Lorg/spongepowered/api/data/value/mutable/Value;
+      @|admin/admin/AdminForge.java|2118|2126|Optional|class|java.util.Optional
+      @|admin/admin/AdminForge.java|2127|2140|UniqueAccount|class|org.spongepowered.api.service.economy.account.UniqueAccount
+      @|admin/admin/AdminForge.java|2164|2182|getOrCreateAccount|method|org.spongepowered.api.service.economy.EconomyService|getOrCreateAccount|(Ljava/util/UUID;)Ljava/util/Optional;
+      @|admin/admin/AdminForge.java|2186|2197|getUniqueId|method|org.spongepowered.api.util.Identifiable|getUniqueId|()Ljava/util/UUID;
+      @|admin/admin/AdminForge.java|2219|2228|isPresent|method|java.util.Optional|isPresent|()Z
+      @|admin/admin/AdminForge.java|2246|2259|UniqueAccount|class|org.spongepowered.api.service.economy.account.UniqueAccount
+      @|admin/admin/AdminForge.java|2271|2274|get|method|java.util.Optional|get|()Ljava/lang/Object;
+      @|admin/admin/AdminForge.java|2290|2300|BigDecimal|class|java.math.BigDecimal
+      @|admin/admin/AdminForge.java|2315|2325|getBalance|method|org.spongepowered.api.service.economy.account.Account|getBalance|(Lorg/spongepowered/api/service/economy/Currency;)Ljava/math/BigDecimal;
+      @|admin/admin/AdminForge.java|2341|2359|getDefaultCurrency|method|org.spongepowered.api.service.economy.EconomyService|getDefaultCurrency|()Lorg/spongepowered/api/service/economy/Currency;
+      @|admin/admin/AdminForge.java|2376|2382|logger|field|admin.admin.AdminForge|logger
+      @|admin/admin/AdminForge.java|2383|2388|debug|method|org.slf4j.Logger|debug|(Ljava/lang/String;)V
+   Method End: onServerStart(Lorg/spongepowered/api/event/game/state/GameStartedServerEvent;)V
+Class End  : admin.admin.AdminForge
+endProcessing "admin/admin/AdminForge.java"
+
+startProcessing "admin/admin/HelloWorldCommand.java" md5: 45cd4ba1de1ae8799f5b8b8f160571a3
+Cache Hit!
+@|admin/admin/HelloWorldCommand.java|8|19|admin.admin|package|admin.admin|(file)
+Class Start: admin.admin.HelloWorldCommand
+   @|admin/admin/HelloWorldCommand.java|352|369|HelloWorldCommand|class|admin.admin.HelloWorldCommand
+   @|admin/admin/HelloWorldCommand.java|381|396|CommandExecutor|class|org.spongepowered.api.command.spec.CommandExecutor
+   Method Start: execute(Lorg/spongepowered/api/command/CommandSource;Lorg/spongepowered/api/command/args/CommandContext;)Lorg/spongepowered/api/command/CommandResult;
+      @|admin/admin/HelloWorldCommand.java|461|464|src|param|admin.admin.HelloWorldCommand|execute|(Lorg/spongepowered/api/command/CommandSource;Lorg/spongepowered/api/command/args/CommandContext;)Lorg/spongepowered/api/command/CommandResult;|src|0
+      @|admin/admin/HelloWorldCommand.java|481|485|args|param|admin.admin.HelloWorldCommand|execute|(Lorg/spongepowered/api/command/CommandSource;Lorg/spongepowered/api/command/args/CommandContext;)Lorg/spongepowered/api/command/CommandResult;|args|1
+      @|admin/admin/HelloWorldCommand.java|405|413|Override|class|java.lang.Override
+      @|admin/admin/HelloWorldCommand.java|425|438|CommandResult|class|org.spongepowered.api.command.CommandResult
+      @|admin/admin/HelloWorldCommand.java|439|446|execute|method|org.spongepowered.api.command.spec.CommandExecutor|execute|(Lorg/spongepowered/api/command/CommandSource;Lorg/spongepowered/api/command/args/CommandContext;)Lorg/spongepowered/api/command/CommandResult;
+      @|admin/admin/HelloWorldCommand.java|447|460|CommandSource|class|org.spongepowered.api.command.CommandSource
+      @|admin/admin/HelloWorldCommand.java|466|480|CommandContext|class|org.spongepowered.api.command.args.CommandContext
+      @|admin/admin/HelloWorldCommand.java|494|510|CommandException|class|org.spongepowered.api.command.CommandException
+      @|admin/admin/HelloWorldCommand.java|521|524|src|param|admin.admin.HelloWorldCommand|execute|(Lorg/spongepowered/api/command/CommandSource;Lorg/spongepowered/api/command/args/CommandContext;)Lorg/spongepowered/api/command/CommandResult;|src|0
+      @|admin/admin/HelloWorldCommand.java|525|536|sendMessage|method|org.spongepowered.api.text.channel.MessageReceiver|sendMessage|(Lorg/spongepowered/api/text/Text;)V
+      @|admin/admin/HelloWorldCommand.java|537|541|Text|class|org.spongepowered.api.text.Text
+      @|admin/admin/HelloWorldCommand.java|542|544|of|method|org.spongepowered.api.text.Text|of|(Ljava/lang/String;)Lorg/spongepowered/api/text/LiteralText;
+      @|admin/admin/HelloWorldCommand.java|578|591|CommandResult|class|org.spongepowered.api.command.CommandResult
+      @|admin/admin/HelloWorldCommand.java|592|599|success|method|org.spongepowered.api.command.CommandResult|success|()Lorg/spongepowered/api/command/CommandResult;
+   Method End: execute(Lorg/spongepowered/api/command/CommandSource;Lorg/spongepowered/api/command/args/CommandContext;)Lorg/spongepowered/api/command/CommandResult;
+Class End  : admin.admin.HelloWorldCommand
+endProcessing "admin/admin/HelloWorldCommand.java"
+

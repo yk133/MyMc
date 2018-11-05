@@ -1,0 +1,26 @@
+[
+    {
+        "modid": "admin",
+        "name": "Admin",
+        "version": "${version}",
+        "authorList": [
+            "yukun"
+        ],
+        "dependencies": [
+            "spongeapi@7.1.0-SNAPSHOT"
+        ],
+        "requiredMods": [
+            "spongeapi@7.1.0-SNAPSHOT"
+        ],
+        "mcversion": "${mcversion}",
+        "updateUrl": "",
+        "credits": "",
+        "logoFile": "",
+        "screenshots": []
+    },
+    {
+        "modid": "admin-sponge",
+        "name": "admin-sponge",
+        "version": "1.0-SNAPSHOT"
+    }
+]

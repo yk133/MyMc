@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "admin",
+    "name": "Admin",
+    "description": "",
+    "version": "1.0-SNAPSHOT",
+    "mcversion": "1.12.2",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "yukun"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

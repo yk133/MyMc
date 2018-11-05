@@ -1,0 +1,9 @@
+Symbol range map extraction starting
+Processing 2 files
+startProcessing "admin/admin/AdminForge.java" md5: bad3a78833759e1bb0a41ee497750714
+endProcessing "admin/admin/AdminForge.java"
+
+startProcessing "admin/admin/HelloWorldCommand.java" md5: 45cd4ba1de1ae8799f5b8b8f160571a3
+Cache Hit!
+endProcessing "admin/admin/HelloWorldCommand.java"
+
